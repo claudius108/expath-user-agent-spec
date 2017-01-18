@@ -1,1 +1,1 @@
-# expath-user-agent-spec
+# EXPath User Agent Specification, see http://kuberam.ro/specs/expath/location/user-agent.html.
