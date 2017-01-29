@@ -137,17 +137,18 @@ div.exampleHeader { font-weight: bold;
             8.7 <a href="#d4e984">The ua:hide-template() function</a><br />
             8.8 <a href="#d4e1012">The ua:get-template() function</a><br />
             8.9 <a href="#d4e1037">The ua:update-template() function</a><br />
-            9 <a href="#data-instances">Data instances</a><br />
-            10 <a href="#d4e1099">Scenarios of usage</a><br />
-            10.1 <a href="#create-event-scenario">Create an event</a><br />
-            10.2 <a href="#create-dialog-template">Create a dialog template</a><br />
+            9 <a href="#selection">Selection</a><br />
+            10 <a href="#data-instances">Data instances</a><br />
+            11 <a href="#d4e1106">Scenarios of usage</a><br />
+            11.1 <a href="#create-event-scenario">Create an event</a><br />
+            11.2 <a href="#create-dialog-template">Create a dialog template</a><br />
             
          </p>
          
          <h3><a name="appendices" id="appendices"></a>Appendices
          </h3>
-         <p class="toc">A <a href="#d4e1145">References</a><br />
-            B <a href="#d4e1199">Summary of Error Conditions</a><br />
+         <p class="toc">A <a href="#d4e1152">References</a><br />
+            B <a href="#d4e1206">Summary of Error Conditions</a><br />
             
          </p>
       </div>
@@ -319,7 +320,7 @@ div.exampleHeader { font-weight: bold;
                         </p>
                      </li>
                   </ul>
-                  <p>For examples of usage, see <a href="#create-event-scenario"><b>10.1 Create an event</b></a>.
+                  <p>For examples of usage, see <a href="#create-event-scenario"><b>11.1 Create an event</b></a>.
                   </p>
                </div>
             </div>
@@ -547,7 +548,7 @@ div.exampleHeader { font-weight: bold;
             </h2>
             <p>These function are for handling the HTML templates to be applied to the content of
                the host document or to the content of hosted
-               documents (see <a href="#data-instances"><b>9 Data instances</b></a> for details on host / hosted document(s)). This specification is considering the
+               documents (see <a href="#data-instances"><b>10 Data instances</b></a> for details on host / hosted document(s)). This specification is considering the
                HTML
                templates as they are mentioned in <a href="#html5">[HTML Living Standard]</a>.
             </p>
@@ -573,7 +574,7 @@ div.exampleHeader { font-weight: bold;
                   <p>This attribute if for defining the expression that selects the item the respective
                      form control is bound to, in one of the data instances.
                      	            For more details regarding these expressions and data instances, see
-                     <a href="#data-instances"><b>9 Data instances</b></a>.
+                     <a href="#data-instances"><b>10 Data instances</b></a>.
                   </p>
                </div>
                <div class="div3">
@@ -777,19 +778,26 @@ div.exampleHeader { font-weight: bold;
          </div>
          <div class="div1">
             
-            <h2><a name="data-instances" id="data-instances"></a>9 Data instances
+            <h2><a name="selection" id="selection"></a>9 Selection
             </h2>
             <p>TBD</p>
             <p>Details on host / hosted document(s).</p>
          </div>
          <div class="div1">
             
-            <h2><a name="d4e1099" id="d4e1099"></a>10 Scenarios of usage
+            <h2><a name="data-instances" id="data-instances"></a>10 Data instances
+            </h2>
+            <p>TBD</p>
+            <p>Details on host / hosted document(s).</p>
+         </div>
+         <div class="div1">
+            
+            <h2><a name="d4e1106" id="d4e1106"></a>11 Scenarios of usage
             </h2>
             <p>Scenarios of usage of the functions comprised by this module.</p>
             <div class="div2">
                
-               <h3><a name="create-event-scenario" id="create-event-scenario"></a>10.1 Create an event
+               <h3><a name="create-event-scenario" id="create-event-scenario"></a>11.1 Create an event
                </h3>
                <p>This scenario presents how to create events using both signatures of the function
                   ua:create-event(), by using default parameters or setting values to parameters.
@@ -812,7 +820,7 @@ ua:create-event('custom-event', map{"detail" := ("detail-1", "detail-2")})
             </div>
             <div class="div2">
                
-               <h3><a name="create-dialog-template" id="create-dialog-template"></a>10.2 Create a dialog template
+               <h3><a name="create-dialog-template" id="create-dialog-template"></a>11.2 Create a dialog template
                </h3>
                <p>This scenario presents how to create a dialog templates, both modal and modeless.</p>
                <div class="exampleInner"><pre>
@@ -861,7 +869,7 @@ ua:create-event('custom-event', map{"detail" := ("detail-1", "detail-2")})
       <div class="back">
          <div class="div1">
             
-            <h2><a name="d4e1145" id="d4e1145"></a>A References
+            <h2><a name="d4e1152" id="d4e1152"></a>A References
             </h2>
             <dl>
                <dt class="label"><a name="xpath-30" id="xpath-30"></a>XPath 3.0
@@ -935,7 +943,7 @@ ua:create-event('custom-event', map{"detail" := ("detail-1", "detail-2")})
          </div>
          <div class="div1">
             
-            <h2><a name="d4e1199" id="d4e1199"></a>B Summary of Error Conditions
+            <h2><a name="d4e1206" id="d4e1206"></a>B Summary of Error Conditions
             </h2>
             <dl>
                <dt class="label"><a name="errUA01" id="errUA01"></a>err:UA01
